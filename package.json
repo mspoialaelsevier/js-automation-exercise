@@ -1,0 +1,20 @@
+{
+    "name": "js-automation-exercise",
+    "version": "1.0.0",
+    "description": "Interview exercise for test automation candidates",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx wdio",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/cli": "7.13.2",
+        "@wdio/cucumber-framework": "^7.13.2",
+        "@wdio/local-runner": "^7.13.2",
+        "@wdio/spec-reporter": "^7.13.2",
+        "chromedriver": "^94.0.0",
+        "wdio-chromedriver-service": "^7.2.2"
+    }
+}
